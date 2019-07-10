@@ -1,0 +1,75 @@
+form {
+    /*Para centrar el formulario a la pagina*/
+    margin: 0 auto;
+    width: 800px;
+  
+    /* Para limitar el formulario */
+    padding: auto;
+    border: 1px solid rgb(248, 89, 240);
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+ 
+/*Color de las cajas de texto del formulario*/
+.form-control{
+  background-color: #d8ecf7;
+}
+  /*Como hay algunos forms que no quiero que queden con el css, se les pone id formt y se les borra*/
+  #formt{
+    background:none;
+    border:none;
+  }
+  
+  /*Este formt Es para que los botones del boton eliminar quede alineado, y sin el tamaño de los otros*/
+  #formt3{
+    background:none;
+    border:none;
+    width: auto;
+  }
+
+  /*Form para que no se afecte el tamaño de la ficha*/
+  #formtConsulta{
+    width: 1038px;
+    background:none;
+    border:none;
+  }
+
+  div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Para que todos los labels esten alineados */
+    width: 50px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    text-align: left;
+  
+    /* Espacio de textfield*/
+    width: auto;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+    border: 1px solid #999;
+  }
+  
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+    
+  
+  }
+  
+  textarea {
+
+    vertical-align: top;
+    height: 2em;
+    resize: vertical;
+  }
+

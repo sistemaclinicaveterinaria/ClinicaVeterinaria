@@ -1,0 +1,33 @@
+
+.card-header{
+	background-color: #008BD2;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	height: 40px;
+	padding-top: 10px;
+}
+
+.card-login{
+width: 500px;
+height: 600px;
+margin-left: 100px;
+background-color: #FFFFFF;
+}
+
+.card-registrar{
+width: 500px;
+height: 600px;
+margin-left: 100px;
+}
+
+body {
+                
+                 margin:0;
+                padding:0;
+                height:100%;
+                background: #86D3CD;
+                background-image: url("https://static.miweb.padigital.es/var/m_8/85/851/32992/491400-Asistencia-Veterinaria-Magalu-fondo.jpg");
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                margin: 0;
+            }
