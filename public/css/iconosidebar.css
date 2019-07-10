@@ -1,0 +1,16 @@
+
+		.cn-icon-mascota::before {
+            content: "\e855";
+    }
+
+
+.cont{
+    width: auto;
+  height: auto;
+    margin: auto;
+    color: black;
+    padding: 60px 15px 70px 50px;
+    border-radius: 60px;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+

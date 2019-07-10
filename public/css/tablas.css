@@ -1,6 +1,6 @@
 /*
 	Color fondo: #632432;
-	Color header: 246355;
+	Color header: #246355;
 	Color borde: 0F362D;
 	Color iluminado: 369681;
 */
@@ -8,186 +8,85 @@
 /*************/
 
 /*Formato de tabla general, colores, etc. */
-
-th, td{
-	padding: 10px;
+.nav {
+  z-index: 9;
 }
 
-
-tr:hover td{
-	background: rgba(62, 134, 243 , 0.68);
-	color: white;
+.bs-example{
+  margin: 20px;        
 }
 
+.img-table {
+  border-radius: 100%;
+}
 
-table.ctablas {
-  background: white;
-  font-family: 'Lato', Arial, sans-serif;
-  border: 1px solid #FFFFFF;
-  width: 1100px;
-  height: 300px;
+body {
+  
   text-align: center;
-  border-collapse: collapse;
-}
-
-/*Color de los bordes*/
-table.ctablas td, table.ctablas th {
-  border: 1px solid #FFFFFF;
-  padding: 4px 9px;
-}
-table.ctablas tbody td {
-  font-size: 13px;
-}
-table.ctablas tr:nth-child(even) {
-  background: #BDC6D0;
-}
-table.ctablas thead {
-  background: #C52D8B;
-  border-bottom: 5px solid #FFFFFF;
-}
-table.ctablas thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #FFFFFF;
-}
-table.ctablas thead th:first-child {
-  border-left: none;
-}
-
-table.ctablas tfoot {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333;
-  background: #D0E4F5;
-  border-top: 3px solid #444444;
-}
-table.ctablas tfoot td {
-  font-size: 14px;
-}
-table.ctablas tfoot .links {
-  text-align: right;
-}
-table.ctablas tfoot .links a{
-  display: inline-block;
-  background: #5375A5;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-
-/*tablas para las pestañas*/
-
-table.ctablas2 {
-  background: white;
-  font-family: 'Lato', Arial, sans-serif;
-  border: 1px solid #FFFFFF;
-  width: 1020px;
-  height: 1000px;
-  text-align: center;
-  border-collapse: collapse;
-}
-
-/*Color de los bordes*/
-table.ctablas2 td, table.ctablas th {
-  border: 1px solid #FFFFFF;
-  padding: 4px 9px;
-}
-table.ctablas2 tbody td {
-  font-size: 13px;
-}
-table.ctablas2 tr:nth-child(even) {
-   background: #BDC6D0;
-}
-table.ctablas2 thead {
-  background: #C52D8B;
-  border-bottom: 5px solid #FFFFFF;
-}
-table.ctablas2 thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #FFFFFF;
-}
-table.ctablas2 thead th:first-child {
-  border-left: none;
-}
-
-table.ctablas2 tfoot {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333;
-  background: #D0E4F5;
-  border-top: 3px solid #444444;
-}
-table.ctablas2 tfoot td {
-  font-size: 14px;
-}
-table.ctablas2 tfoot .links {
-  text-align: right;
-}
-table.ctablas2 tfoot .links a{
-  display: inline-block;
-  background: #5375A5;
-  color: #FFFFFF;
-  padding: 10px 10px;
-  border-radius: 5px;
-
-
-}
-
-/* boton azul guardar! historial*/
-  .cbtn-guardar{
-      color:white;
-      background-color: #3394FF;
-            position:absolute;
-            right: 20%;
-    }
-    .cbtn-guardar:hover{
-      background-color: #2F88EC;  
-    }
-    .cbtn-guardar:active{
-      background-color: #2873C8;
-    }
-
-    .cn-icon-guardar::before {
-    content: "\e821"
-}
-
-/* boton azul guardar! historial*/
-  .cbtn-editar{
-      color:white;
-      background-color: #C52D8B;
-            position:absolute;
-            right: 30%;
-    }
-    .cbtn-editar:hover{
-      background-color: #AD297B;  
-    }
-    .cbtn-editar:active{
-      background-color: #99226C;
-    }
-
-    .cn-icon-editar::before {
-    content: "\f14b"
+  padding: 15px;
+  width: auto;
 }
 
 
+table {
+  /* border-collapse: separate; */
+  border-spacing: 0 5px;
+  width: auto;
+  
+}
 
-.jumbotron{
-  background-color:#FFFFFF;
+.eo-fullcalendar{
+  width:50%;    
+}
+
+/*bordado transparente de las tablas. */
+.cont{
+  width: auto;
+ height: auto;
+  margin: auto;
+  color: black;
+  padding: 60px 50px 0px 50px;
+  border-radius: 60px;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+
+/*bordado transparente de las tablas. */
+.cont2{
+  float: right;
+  width: 1500px;
+}
+
+.thead2 {
+  background-color: white;
+  color: white;
+  width: auto;
 
 }
 
-.tabla1 {
-    width: 250px;
-    height: 250px;
-    float: right;
+thead th {
+  background-color:rgb(196, 56, 142);
+  color: white;
+  width: auto;
 }
 
-.tabla1 th, td {
- padding: 1%;
+
+tbody td {
+  background-color: #EEEEEE;
 }
 
+tfoot th {
+  background-color:rgb(196, 56, 142);
+  color: white;
+}
+
+tr td:first-child,
+tr th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

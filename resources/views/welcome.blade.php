@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Clinica HCVDELLAGO</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -63,17 +63,17 @@
             }
         </style>
     </head>
-    <body>
+    <body background="logos/fondo.jpg">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Iniciar Sesion</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Registrar</a>
                         @endif
                     @endauth
                 </div>
@@ -81,17 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                <img src="logos/logo_1080x1080_transparente.png" alt="Logo" height="800" holastyle="width:100%; max-width:1000px" class="img-responsive">
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>
